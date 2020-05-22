@@ -9,13 +9,13 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  # SELECT AVG(gpa) FROM name;
+  SELECT AVG(gpa) FROM name;
 end
 
 def total_tardies_for_all_students
-  # SELECT SUM (tardies) FROM name;
+"  SELECT SUM (tardies) FROM name;"
 end
 
 def average_gpa_for_9th_grade
-  # SELECT AVG (gpa) FROM name WHERE grade = 9;
-end
+"  SELECT AVG (gpa) FROM name WHERE grade = 9;
+"end
