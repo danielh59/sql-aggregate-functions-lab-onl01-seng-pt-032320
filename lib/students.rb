@@ -5,6 +5,7 @@ SELECT MAX(gpa) FROM student;
 end
 
 def lowest_student_gpa
+  SELECT MIN(gpa) FROM student;
 end
 
 def average_student_gpa
